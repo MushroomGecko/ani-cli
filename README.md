@@ -72,9 +72,16 @@ patch - Update checking
 
 ### Linux / Mac
 ```sh
-git clone https://github.com/pystardust/ani-cli.git
+git clone https://github.com/MushroomGecko/ani-cli.git
 cd ani-cli
 sudo make
+```
+## Uninstall
+
+### Linux / Mac
+```sh
+cd ani-cli
+sudo make uninstall
 ```
 
 ### Windows
@@ -84,7 +91,7 @@ sudo make
 * Open git bash by right-clicking and choosing "Run as administrator"
 * Run the following commands
 ```sh
-git clone -b windows-vlc https://github.com/pystardust/ani-cli.git
+git clone -b windows-vlc https://github.com/MushroomGecko/ani-cli.git
 cd ani-cli
 chmod +x ani-cli-win
 ./install
