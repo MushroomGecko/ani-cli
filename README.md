@@ -17,7 +17,7 @@
 
 A cli to browse and watch anime. This tool scrapes the site [gogoanime](https://gogoanime.pe).
 </br>
-This is a fork from the original ani-cli by pystardust to automatically make videos playing from mpv fullscreen.
+<b>This is a fork from the original ani-cli by pystardust to automatically make videos playing from mpv full-screen.</b>
 
 
 ## Usage
