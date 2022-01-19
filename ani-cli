@@ -362,7 +362,7 @@ open_episode () {
 				nohup "$player_fn" --fs --http-header-fields="Referer: $dpage_link" "$video_url" > /dev/null 2>&1 &
 				;;
 			"vlc")
-				nohup "$player_fn" --http-referrer="$dpage_link" "$video_url" > /dev/null 2>&1 &
+				nohup "$player_fn" --fullscreen --http-referrer="$dpage_link" "$video_url" > /dev/null 2>&1 &
 				;;
 			*)
 				die "Unsupported player"
