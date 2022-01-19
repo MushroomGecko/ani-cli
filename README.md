@@ -96,10 +96,6 @@ cd ani-cli
 chmod +x ani-cli-win
 ./install
 ```
-<b>NOTE: The automatic fullscreen functionality flag for vlc does not currently work on Windows. In the mean time you can set vlc to automatically go fullscreen for any video by opening the vlc application and doing the following:</b>
-```sh
-Tools > Preferences > Video > Check the Fullscreen checkbox
-```
 
 ## Disclaimer
 
